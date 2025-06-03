@@ -12,3 +12,4 @@ This project is a real-time **live captioning web application** built with **Ang
 - 🎥 Clean layout with video feed on one side and captions on the other
 
 ---
+https://taniisha08.github.io/angular-live-caption/
