@@ -1,27 +1,14 @@
-# AngularLiveCaptioning
+# 🎙️ Angular Live Captioning App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+This project is a real-time **live captioning web application** built with **Angular 16** and the **Web Speech API**. It captures a speaker’s voice, transcribes it into readable text on the screen, and displays it line-by-line like Google Meet captions. It's designed for **video interviews**, **meetings**, or **speech transcription use cases**.
 
-## Development server
+## 🚀 Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- 🎤 Real-time speech-to-text using Web Speech API
+- 🧠 Automatic sentence detection with silence-based segmentation
+- ⏱️ Timestamps for each spoken sentence
+- 🔊 Microphone sensitivity visualizer (Audio bar)
+- 👥 (Planned) Multi-user live caption sharing via Firebase
+- 🎥 Clean layout with video feed on one side and captions on the other
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
