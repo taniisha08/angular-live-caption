@@ -10,6 +10,7 @@
 
 
 <h1>Live Captions</h1>
+<h2 class="interim">{{ speechService.interimTranscript }}</h2>
 <div class="container">
   <div class="col video-feed">
     <video #video autoplay muted playsinline></video>
@@ -20,11 +21,11 @@
     </button>
 
     <div *ngFor="let c of captions">
-      <small>{{ c.time }}</small>
-      <p><strong>{{ c.speaker }}:</strong> {{ c.text }}</p>
+      <!-- <small>{{ c.time }}</small> -->
+      <span><strong>{{ c.speaker }}:</strong> {{ c.text }}</span>
     </div>
-    <p class="interim">{{ speechService.interimTranscript }}</p>
   </div>
+
 </div>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
